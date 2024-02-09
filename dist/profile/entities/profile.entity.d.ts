@@ -1,0 +1,34 @@
+export declare class Patient {
+    id: number;
+    lang_id: number;
+    patient_name: string;
+    dob: Date;
+    age: number;
+    month: number;
+    day: number;
+    image: string;
+    mobileno: string;
+    email: string;
+    gender: string;
+    marital_status: string;
+    blood_group: string;
+    blood_bank_product_id: number;
+    address: string;
+    guardian_name: string;
+    patient_type: string;
+    ABHA_number: string;
+    known_allergies: string;
+    note: string;
+    is_ipd: string;
+    app_key: string;
+    insurance_id: string;
+    insurance_validity: Date;
+    is_dead: string;
+    is_active: string;
+    disable_at: Date;
+    created_at: Date;
+    emergency_mobile_no: string;
+    state_code: number;
+    district_code: number;
+    pincode: string;
+}

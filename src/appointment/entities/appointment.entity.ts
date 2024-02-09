@@ -26,3 +26,4 @@ export class Appointment {
         Hospital_id:number;
         hos_appointment_id:number;
 }
+// changes mader here
